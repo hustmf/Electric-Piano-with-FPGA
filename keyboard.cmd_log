@@ -1,0 +1,2 @@
+vhdtdtfi -lib work F:/piano16/keyboard.v -lang verilog -prj piano -o keyboard.spl -module keyboard -template d:/Xilinx/14.2/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e keyboard.spl F:/piano16/keyboard.sym 

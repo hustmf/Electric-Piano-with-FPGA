@@ -1,0 +1,1782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"F:\digital-piano-final\recordmode.v" Line 61: Signal &lt;<arg fmt="%s" index="1">mem</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\vga_char.v" Line 206: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\vga_char.v" Line 224: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\vga_char.v" Line 243: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\vga_char.v" Line 287: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\digital-piano-final\piano.v" Line 59: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nCLR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\piano.v" Line 113: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\digital-piano-final\piano.v" Line 118: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nCLR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\digital-piano-final\piano.v" Line 121: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nCLR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\digital-piano-final\piano.v" Line 124: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nCLR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\digital-piano-final\piano.v" Line 127: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">nCLR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 52: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 53: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 54: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 55: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 56: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 57: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 58: Signal &lt;<arg fmt="%s" index="1">sinTable_C_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 78: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 79: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 80: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 81: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 82: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 83: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 84: Signal &lt;<arg fmt="%s" index="1">sinTable_D_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="old" >Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">8</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 102: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 103: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 104: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 105: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 106: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 107: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 108: Signal &lt;<arg fmt="%s" index="1">sinTable_E_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 127: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 128: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 129: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 130: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 131: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 132: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 133: Signal &lt;<arg fmt="%s" index="1">sinTable_F_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 152: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 153: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 154: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 155: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 156: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 157: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 158: Signal &lt;<arg fmt="%s" index="1">sinTable_G_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 177: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 178: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 179: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 180: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 181: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 182: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 183: Signal &lt;<arg fmt="%s" index="1">sinTable_A_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 203: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low1</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 204: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low2</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 205: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low3</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 206: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low4</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 207: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low5</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 208: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low6</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="old" >"F:\digital-piano-final\sin.v" Line 209: Signal &lt;<arg fmt="%s" index="1">sinTable_B_low7</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\digital-piano-final\PWM_Out.v" Line 33: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">F:\digital-piano-final\piano.v</arg>&quot; line <arg fmt="%d" index="2">59</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">F</arg>&gt; of block &lt;<arg fmt="%s" index="4">Divider</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">piano</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">start</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">F:\digital-piano-final\piano.v</arg>&quot; line <arg fmt="%s" index="2">59</arg>: Output port &lt;<arg fmt="%s" index="3">CLK_Out</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">F</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">replay</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_C_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_D_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_E_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_F_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_G_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_A_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low1</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low2</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low3</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low4</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low5</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low6</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="2999" delta="old" >Signal &apos;<arg fmt="%s" index="1">sinTable_B_low7</arg>&apos;, unconnected in block &apos;<arg fmt="%s" index="2">sin</arg>&apos;, is tied to its initial value.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_C_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_D_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_E_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_F_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_G_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_A_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low1</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low2</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low3</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low4</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low5</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low6</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="3035" delta="old" >Index value(s) does not match array range for signal &lt;<arg fmt="%s" index="1">sinTable_B_low7</arg>&gt;, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; &lt;vga_rgb_2&gt; &lt;vga_rgb_3&gt; &lt;vga_rgb_4&gt; &lt;vga_rgb_5&gt; &lt;vga_rgb_6&gt; &lt;vga_rgb_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">77 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_3&gt; &lt;char_line5_4&gt; &lt;char_line5_7&gt; &lt;char_line5_8&gt; &lt;char_line5_11&gt; &lt;char_line5_15&gt; &lt;char_line5_16&gt; &lt;char_line5_20&gt; &lt;char_line5_23&gt; &lt;char_line3_0&gt; &lt;char_line3_3&gt; &lt;char_line3_7&gt; &lt;char_line3_15&gt; &lt;char_line3_20&gt; &lt;char_line4_0&gt; &lt;char_line4_3&gt; &lt;char_line4_7&gt; &lt;char_line4_11&gt; &lt;char_line4_15&gt; &lt;char_line4_16&gt; &lt;char_line4_20&gt; &lt;char_line4_23&gt; &lt;char_line9_0&gt; &lt;char_line9_7&gt; &lt;char_line9_10&gt; &lt;char_line9_15&gt; &lt;char_line9_16&gt; &lt;char_line9_19&gt; &lt;char_line9_21&gt; &lt;char_line9_23&gt; &lt;char_line7_0&gt; &lt;char_line7_1&gt; &lt;char_line7_7&gt; &lt;char_line7_8&gt; &lt;char_line7_16&gt; &lt;char_line7_20&gt; &lt;char_line7_23&gt; &lt;char_line8_0&gt; &lt;char_line8_2&gt; &lt;char_line8_3&gt; &lt;char_line8_5&gt; &lt;char_line8_7&gt; &lt;char_line8_10&gt; &lt;char_line8_15&gt; &lt;char_line8_16&gt; &lt;char_line8_23&gt; &lt;char_linec_0&gt; &lt;char_linec_2&gt; &lt;char_linec_3&gt; &lt;char_linec_5&gt; &lt;char_linec_7&gt; &lt;char_linec_15&gt; &lt;char_linec_16&gt; &lt;char_linec_19&gt; &lt;char_linec_21&gt; &lt;char_linec_23&gt; &lt;char_linea_0&gt; &lt;char_linea_2&gt; &lt;char_linea_3&gt; &lt;char_linea_7&gt; &lt;char_linea_15&gt; &lt;char_linea_16&gt; &lt;char_linea_19&gt; &lt;char_linea_21&gt; &lt;char_linea_23&gt; &lt;char_lineb_0&gt; &lt;char_lineb_2&gt; &lt;char_lineb_3&gt; &lt;char_lineb_5&gt; &lt;char_lineb_7&gt; &lt;char_lineb_10&gt; &lt;char_lineb_15&gt; &lt;char_lineb_16&gt; &lt;char_lineb_19&gt; &lt;char_lineb_21&gt; &lt;char_lineb_23&gt; &lt;char_lined_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line1_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">11 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line1_2&gt; &lt;char_line1_5&gt; &lt;char_line1_6&gt; &lt;char_line1_9&gt; &lt;char_line1_10&gt; &lt;char_line1_13&gt; &lt;char_line1_14&gt; &lt;char_line1_17&gt; &lt;char_line1_18&gt; &lt;char_line1_21&gt; &lt;char_line1_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">15 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_2&gt; &lt;char_line5_5&gt; &lt;char_line5_6&gt; &lt;char_line5_10&gt; &lt;char_line5_13&gt; &lt;char_line5_14&gt; &lt;char_line3_1&gt; &lt;char_line3_2&gt; &lt;char_line3_6&gt; &lt;char_line4_1&gt; &lt;char_line4_2&gt; &lt;char_line4_6&gt; &lt;char_line4_10&gt; &lt;char_line4_13&gt; &lt;char_line4_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linee_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">m3</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">35 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linee_1&gt; &lt;char_linee_2&gt; &lt;char_linee_3&gt; &lt;char_linee_4&gt; &lt;char_linee_5&gt; &lt;char_linee_6&gt; &lt;char_linee_7&gt; &lt;char_linee_8&gt; &lt;char_linee_9&gt; &lt;char_linee_10&gt; &lt;char_linee_11&gt; &lt;char_linee_12&gt; &lt;char_linee_13&gt; &lt;char_linee_14&gt; &lt;char_linee_15&gt; &lt;char_linee_16&gt; &lt;char_linee_17&gt; &lt;char_linee_18&gt; &lt;char_linee_19&gt; &lt;char_linee_20&gt; &lt;char_linee_21&gt; &lt;char_linee_22&gt; &lt;char_linee_23&gt; &lt;char_line1_0&gt; &lt;char_line1_3&gt; &lt;char_line1_4&gt; &lt;char_line1_7&gt; &lt;char_line1_8&gt; &lt;char_line1_11&gt; &lt;char_line1_12&gt; &lt;char_line1_15&gt; &lt;char_line1_16&gt; &lt;char_line1_19&gt; &lt;char_line1_20&gt; &lt;char_line1_23&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line5_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line1_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">m3</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram__n0291</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_C_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_D_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_E_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_F_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_G_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_A_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low1</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low2</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low3</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low4</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low5</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low6</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="old" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_sinTable_B_low7</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_state[7]_PWR_16_o_wide_mux_6_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_state[9]_PWR_17_o_wide_mux_6_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="old" >The RAM &lt;<arg fmt="%s" index="1">Mram_state[7]_PWR_18_o_wide_mux_6_OUT</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tmp_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tmp_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tmp_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">tmp_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">keyboard</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line1_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line1_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line5_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line4_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line3_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">77 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_3&gt; &lt;char_line3_7&gt; &lt;char_line3_15&gt; &lt;char_line3_20&gt; &lt;char_line4_0&gt; &lt;char_line4_3&gt; &lt;char_line4_7&gt; &lt;char_line4_11&gt; &lt;char_line4_15&gt; &lt;char_line4_16&gt; &lt;char_line4_20&gt; &lt;char_line4_23&gt; &lt;char_line5_0&gt; &lt;char_line5_3&gt; &lt;char_line5_4&gt; &lt;char_line5_7&gt; &lt;char_line5_8&gt; &lt;char_line5_11&gt; &lt;char_line5_15&gt; &lt;char_line5_16&gt; &lt;char_line5_20&gt; &lt;char_line5_23&gt; &lt;char_line9_0&gt; &lt;char_line9_7&gt; &lt;char_line9_10&gt; &lt;char_line9_15&gt; &lt;char_line9_16&gt; &lt;char_line9_19&gt; &lt;char_line9_21&gt; &lt;char_line9_23&gt; &lt;char_line7_0&gt; &lt;char_line7_1&gt; &lt;char_line7_7&gt; &lt;char_line7_8&gt; &lt;char_line7_16&gt; &lt;char_line7_20&gt; &lt;char_line7_23&gt; &lt;char_line8_0&gt; &lt;char_line8_2&gt; &lt;char_line8_3&gt; &lt;char_line8_5&gt; &lt;char_line8_7&gt; &lt;char_line8_10&gt; &lt;char_line8_15&gt; &lt;char_line8_16&gt; &lt;char_line8_23&gt; &lt;char_linec_0&gt; &lt;char_linec_2&gt; &lt;char_linec_3&gt; &lt;char_linec_5&gt; &lt;char_linec_7&gt; &lt;char_linec_15&gt; &lt;char_linec_16&gt; &lt;char_linec_19&gt; &lt;char_linec_21&gt; &lt;char_linec_23&gt; &lt;char_linea_0&gt; &lt;char_linea_2&gt; &lt;char_linea_3&gt; &lt;char_linea_7&gt; &lt;char_linea_15&gt; &lt;char_linea_16&gt; &lt;char_linea_19&gt; &lt;char_linea_21&gt; &lt;char_linea_23&gt; &lt;char_lineb_0&gt; &lt;char_lineb_2&gt; &lt;char_lineb_3&gt; &lt;char_lineb_5&gt; &lt;char_lineb_7&gt; &lt;char_lineb_10&gt; &lt;char_lineb_15&gt; &lt;char_lineb_16&gt; &lt;char_lineb_19&gt; &lt;char_lineb_21&gt; &lt;char_lineb_23&gt; &lt;char_lined_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linee_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">35 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linee_1&gt; &lt;char_linee_2&gt; &lt;char_linee_3&gt; &lt;char_linee_4&gt; &lt;char_linee_5&gt; &lt;char_linee_6&gt; &lt;char_linee_7&gt; &lt;char_linee_8&gt; &lt;char_linee_9&gt; &lt;char_linee_10&gt; &lt;char_linee_11&gt; &lt;char_linee_12&gt; &lt;char_linee_13&gt; &lt;char_linee_14&gt; &lt;char_linee_15&gt; &lt;char_linee_16&gt; &lt;char_linee_17&gt; &lt;char_linee_18&gt; &lt;char_linee_19&gt; &lt;char_linee_20&gt; &lt;char_linee_21&gt; &lt;char_linee_22&gt; &lt;char_linee_23&gt; &lt;char_line1_0&gt; &lt;char_line1_3&gt; &lt;char_line1_4&gt; &lt;char_line1_7&gt; &lt;char_line1_8&gt; &lt;char_line1_11&gt; &lt;char_line1_12&gt; &lt;char_line1_15&gt; &lt;char_line1_16&gt; &lt;char_line1_19&gt; &lt;char_line1_20&gt; &lt;char_line1_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">vga_rgb_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">vga_char</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;vga_rgb_1&gt; &lt;vga_rgb_2&gt; &lt;vga_rgb_3&gt; &lt;vga_rgb_4&gt; &lt;vga_rgb_5&gt; &lt;vga_rgb_6&gt; &lt;vga_rgb_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_11&gt; &lt;char_line4_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_9&gt; &lt;char_lined_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linec_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linec_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_12&gt; &lt;char_linea_5&gt; &lt;char_lineb_12&gt; &lt;char_lined_0&gt; &lt;char_lined_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_11&gt; &lt;char_line8_8&gt; &lt;char_line8_11&gt; &lt;char_linea_8&gt; &lt;char_lineb_8&gt; &lt;char_lineb_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_13&gt; &lt;char_lineb_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line5_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line5_21&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line7_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line7_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">12 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_22&gt; &lt;char_linea_22&gt; &lt;char_lineb_22&gt; &lt;char_lined_2&gt; &lt;char_lined_3&gt; &lt;char_lined_4&gt; &lt;char_lined_5&gt; &lt;char_lined_11&gt; &lt;char_lined_17&gt; &lt;char_lined_18&gt; &lt;char_lined_22&gt; &lt;char_lined_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_4&gt; &lt;char_linea_4&gt; &lt;char_lineb_4&gt; &lt;char_lined_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linea_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_14&gt; &lt;char_lined_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_linea_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lineb_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_10&gt; &lt;char_line7_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_20&gt; &lt;char_linec_18&gt; &lt;char_linec_20&gt; &lt;char_linea_18&gt; &lt;char_linea_20&gt; &lt;char_lineb_18&gt; &lt;char_lineb_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_1&gt; &lt;char_line8_6&gt; &lt;char_lineb_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_22&gt; &lt;char_line4_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line4_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line4_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line8_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line7_19&gt; &lt;char_line7_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_linea_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_lined_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line7_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_lined_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">6 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line8_17&gt; &lt;char_line8_19&gt; &lt;char_line8_21&gt; &lt;char_linea_17&gt; &lt;char_lineb_17&gt; &lt;char_lined_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line9_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line9_3&gt; &lt;char_line8_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">char_line3_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">VGA</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;char_line3_10&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">char_line3_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_line9_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">char_linec_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">VGA</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="old" >RAMs &lt;<arg fmt="%s" index="1">m1/m1/m1/Mram_mem6</arg>&gt;, &lt;<arg fmt="%s" index="2">m1/m1/m1/Mram_mem8</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/m/c_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_25</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m1/m1/count_for_16Hz_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m2/count_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m2/count_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m2/count_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">m1/m2/count_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F0/Count_DIV_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_16</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_17</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_18</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/F6/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/F6/Count_DIV_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/F4/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_24</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_23</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_22</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">m1/S0/F1/Count_DIV_21</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">digital_piano</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_line5_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line4_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_line5_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line3_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_line5_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line4_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line9_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line5_12&gt; &lt;m1/m3/char_line4_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line8_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line8_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line9_22&gt; &lt;m1/m3/char_line3_23&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_line7_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line9_17&gt; &lt;m1/m3/char_line3_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_line7_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line9_18&gt; &lt;m1/m3/char_line5_19&gt; &lt;m1/m3/char_line3_19&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F4/Count_DIV_1&gt; &lt;m1/F2/Count_DIV_1&gt; &lt;m1/P0/counter_1&gt; &lt;m1/S0/F0/Count_DIV_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F4/Count_DIV_2&gt; &lt;m1/F2/Count_DIV_2&gt; &lt;m1/P0/counter_2&gt; &lt;m1/S0/F0/Count_DIV_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F4/Count_DIV_3&gt; &lt;m1/F2/Count_DIV_3&gt; &lt;m1/P0/counter_3&gt; &lt;m1/S0/F0/Count_DIV_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">4 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F4/Count_DIV_4&gt; &lt;m1/F2/Count_DIV_4&gt; &lt;m1/P0/counter_4&gt; &lt;m1/S0/F0/Count_DIV_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F2/Count_DIV_5&gt; &lt;m1/P0/counter_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/F5/Count_DIV_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/P0/counter_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_lineb_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_linec_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line7_6&gt; &lt;m1/m3/char_line3_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line7_2&gt; &lt;m1/m3/char_line9_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linec_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line9_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_lined_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_linec_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">F5M/Count_DIV_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">5 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/F5/Count_DIV_0&gt; &lt;m1/F4/Count_DIV_0&gt; &lt;m1/F2/Count_DIV_0&gt; &lt;m1/P0/counter_0&gt; &lt;m1/S0/F0/Count_DIV_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">m1/m3/char_linee_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">digital_piano</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;m1/m3/char_line3_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

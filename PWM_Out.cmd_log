@@ -1,0 +1,3 @@
+vhdtdtfi -lang verilog -prj piano -o E:/gpsimulation/digital-piano-final/digital-piano-final/PWM_Out.tfi -lib work E:/gpsimulation/digital-piano-final/digital-piano-final//PWM_Out.v -module PWM_Out -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work E:/gpsimulation/digital-piano-final/digital-piano-final/PWM_Out.v -lang verilog -prj piano -o PWM_Out.spl -module PWM_Out -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family artix7 PWM_Out.spl E:/gpsimulation/digital-piano-final/digital-piano-final/PWM_Out.sym 

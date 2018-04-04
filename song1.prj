@@ -1,0 +1,4 @@
+verilog work "Divider.v"
+verilog work "sin.v"
+verilog work "PWM_Out.v"
+verilog work "song1.v"

@@ -1,0 +1,5 @@
+set -tmpdir "E:/test/piano15NN/xst/projnav.tmp"
+set -xsthdpdir "E:/test/piano15NN/xst"
+elaborate
+-ifn display.prj
+-ifmt mixed

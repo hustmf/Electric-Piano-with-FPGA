@@ -1,0 +1,47 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Dec 20 20:47:07 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "out" LOCATE = SITE "A11" LEVEL 1;
+COMP "reset" LOCATE = SITE "P4" LEVEL 1;
+COMP "vsync" LOCATE = SITE "B12" LEVEL 1;
+COMP "vga_r<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "vga_r<2>" LOCATE = SITE "C5" LEVEL 1;
+COMP "vga_r<0>" LOCATE = SITE "A3" LEVEL 1;
+COMP "ps2_clk" LOCATE = SITE "F4" LEVEL 1;
+COMP "start" LOCATE = SITE "P3" LEVEL 1;
+COMP "ChannelSelect" LOCATE = SITE "V2" LEVEL 1;
+COMP "anodes<2>" LOCATE = SITE "M3" LEVEL 1;
+COMP "anodes<1>" LOCATE = SITE "M6" LEVEL 1;
+COMP "anodes<3>" LOCATE = SITE "N5" LEVEL 1;
+COMP "anodes<0>" LOCATE = SITE "N6" LEVEL 1;
+COMP "inclk" LOCATE = SITE "E3" LEVEL 1;
+COMP "record" LOCATE = SITE "U4" LEVEL 1;
+COMP "hsync" LOCATE = SITE "B11" LEVEL 1;
+COMP "key<0>" LOCATE = SITE "R6" LEVEL 1;
+COMP "key<1>" LOCATE = SITE "R7" LEVEL 1;
+COMP "key<2>" LOCATE = SITE "U8" LEVEL 1;
+COMP "key<3>" LOCATE = SITE "U9" LEVEL 1;
+COMP "YinDiao<0>" LOCATE = SITE "T3" LEVEL 1;
+COMP "YinDiao<1>" LOCATE = SITE "T1" LEVEL 1;
+COMP "YinDiao<2>" LOCATE = SITE "R3" LEVEL 1;
+COMP "select" LOCATE = SITE "U2" LEVEL 1;
+PIN select_pin<0> = BEL "select" PINNAME PAD;
+PIN "select_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "vga_b<1>" LOCATE = SITE "C7" LEVEL 1;
+COMP "replay" LOCATE = SITE "V5" LEVEL 1;
+COMP "vga_b<0>" LOCATE = SITE "B7" LEVEL 1;
+COMP "vga_g<1>" LOCATE = SITE "A5" LEVEL 1;
+COMP "vga_g<2>" LOCATE = SITE "B6" LEVEL 1;
+COMP "vga_g<0>" LOCATE = SITE "C6" LEVEL 1;
+COMP "cathodes<6>" LOCATE = SITE "L6" LEVEL 1;
+COMP "cathodes<5>" LOCATE = SITE "M2" LEVEL 1;
+COMP "cathodes<4>" LOCATE = SITE "K3" LEVEL 1;
+COMP "cathodes<3>" LOCATE = SITE "L4" LEVEL 1;
+COMP "cathodes<2>" LOCATE = SITE "L5" LEVEL 1;
+COMP "cathodes<1>" LOCATE = SITE "N1" LEVEL 1;
+COMP "cathodes<0>" LOCATE = SITE "L3" LEVEL 1;
+COMP "ps2_data" LOCATE = SITE "B2" LEVEL 1;
+SCHEMATIC END;
+

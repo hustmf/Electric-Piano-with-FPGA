@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+PWM_Out instance_name (
+    .musicdata(musicdata), 
+    .CP(CP), 
+    .PWM_Out(PWM_Out)
+    );
+
+

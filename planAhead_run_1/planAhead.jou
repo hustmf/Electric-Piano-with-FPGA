@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.2
+# Build 194362 by xbuild on Fri Jul 20 18:52:36 MDT 2012
+# Start of session at: Sun Jun 30 20:09:49 2013
+# Process ID: 15488
+# Log file: E:/test/piano15NN/planAhead_run_1/planAhead.log
+# Journal file: E:/test/piano15NN/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/test/piano15NN/pa.fromNetlist.tcl

@@ -1,0 +1,12 @@
+[Inputs]
+sys_clk
+k_data
+k_clock
+record
+replay
+[Outputs]
+=out[7:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel keyboard
+

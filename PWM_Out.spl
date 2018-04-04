@@ -1,0 +1,9 @@
+[Inputs]
+CP
+=musicdata[7:0]=
+[Outputs]
+PWM_Out
+[BiDir]
+[ATTRIBUTES]
+VeriModel PWM_Out
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\gpsimulation\digital-piano-final\digital-piano-final\digital_piano.ncd
+OUTFILE=E:\gpsimulation\digital-piano-final\digital-piano-final\digital_piano.bit
+FAMILY=Artix7
+PART=xc7a100t-3csg324
+WORKINGDIR=E:\gpsimulation\digital-piano-final\digital-piano-final
+LICENSE=WebPack
+USER_INFO=__0_0_0

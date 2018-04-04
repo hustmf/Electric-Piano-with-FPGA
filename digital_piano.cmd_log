@@ -1,0 +1,997 @@
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc piano_ucf.ucf -p xa7a100t-csg324-2I digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xa7a100t-csg324-2I digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xa7a100t-csg324-2I digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xa7a100t-csg324-2I digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano/digital_piano.xst" -ofn "E:/test/piano/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano2/digital_piano.xst" -ofn "E:/test/piano2/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano6/digital_piano.xst" -ofn "E:/test/piano6/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano8/digital_piano.xst" -ofn "E:/test/piano8/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano11/digital_piano.xst" -ofn "E:/test/piano11/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11/digital_piano.xst" -ofn "E:/test/piano11/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11/digital_piano.xst" -ofn "E:/test/piano11/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano11/digital_piano.xst" -ofn "E:/test/piano11/digital_piano.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim digital_piano.ngc digital_piano_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim digital_piano.ngc digital_piano_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim digital_piano.ngc digital_piano_synthesis.v 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano11sudu/digital_piano.xst" -ofn "E:/test/piano11sudu/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano13N/digital_piano.xst" -ofn "E:/test/piano13N/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano13N/digital_piano.xst" -ofn "E:/test/piano13N/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano13N/digital_piano.xst" -ofn "E:/test/piano13N/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano13N/digital_piano.xst" -ofn "E:/test/piano13N/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano13N/digital_piano.xst" -ofn "E:/test/piano13N/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis -ofmt verilog -sim digital_piano.ngc digital_piano_synthesis.v 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/test/piano15NN/digital_piano.xst" -ofn "E:/test/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.syr" 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano15NN/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.syr" 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.xst" -ofn "C:/Users/Ricky Zhang/Desktop/final/piano16/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc3s100e-cp132-5 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -t 1 digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/dzq/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/dzq/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "C:/Users/fzy97/Desktop/digital_piano-master - 1/digital_piano.xst" -ofn "C:/Users/fzy97/Desktop/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "C:/Users/fzy97/Desktop/digital_piano-master - 1/digital_piano.xst" -ofn "C:/Users/fzy97/Desktop/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+xst -intstyle ise -ifn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.xst" -ofn "E:/dianlu/Logic/digital_piano-master - 1/digital_piano-master - 1/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 "digital_piano.ngc" digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+xst -intstyle ise -ifn "F:/digital-piano-final/digital_piano.xst" -ofn "F:/digital-piano-final/digital_piano.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc digital_piano_ucf.ucf -p xc7a100t-csg324-3 digital_piano.ngc digital_piano.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o digital_piano_map.ncd digital_piano.ngd digital_piano.pcf 
+par -w -intstyle ise -ol high -mt off digital_piano_map.ncd digital_piano.ncd digital_piano.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml digital_piano.twx digital_piano.ncd -o digital_piano.twr digital_piano.pcf -ucf digital_piano_ucf.ucf 
+bitgen -intstyle ise -f digital_piano.ut digital_piano.ncd 

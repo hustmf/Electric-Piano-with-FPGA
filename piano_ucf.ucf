@@ -1,0 +1,12 @@
+NET "inclk" LOC = "B8"; # Bank = 2, Signal name = CLK1
+
+
+
+NET "key1" LOC = "P11"; # Bank = 3, Signal name = CA
+NET "key2" LOC = "L3"; # Bank = 3, Signal name = CB
+NET "key3" LOC = "K3"; # Bank = 3, Signal name = CC
+NET "key4" LOC = "B4"; # Bank = 3, Signal name = CD
+NET "key5" LOC = "G3"; # Bank = 3, Signal name = CE
+NET "key6" LOC = "F3"; # Bank = 3, Signal name = CF
+NET "key7" LOC = "E2"; # Bank = 1, Signal name = CG
+NET "beep2" LOC = "D12"; # Bank = 1, Signal name = CG

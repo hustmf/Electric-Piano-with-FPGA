@@ -1,0 +1,19 @@
+Release 14.2 - netgen P.28xd (nt)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Command Line: netgen -intstyle ise -insert_glbl true -w -dir netgen/synthesis
+-ofmt verilog -sim digital_piano.ngc digital_piano_synthesis.v  
+
+Reading design 'digital_piano.ngc' ...
+Flattening design ...
+Processing design ... 
+  Preping design's networks ...
+  Preping design's macros ...
+Writing Verilog netlist file
+'E:\test\piano15NN\netgen\synthesis\digital_piano_synthesis.v' ...
+INFO:NetListWriters:633 - The generated Verilog netlist contains Xilinx UNISIM
+   simulation primitives and has to be used with UNISIM simulation library for
+   correct compilation and simulation. 
+Number of warnings: 0
+Number of info messages: 1
+Total memory usage is 123304 kilobytes
